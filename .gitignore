@@ -30,6 +30,6 @@ _testmain.go
 #test/bin/
 #vendor/
 #dist/
-
+_temp/
 # Cache
 *.swp
