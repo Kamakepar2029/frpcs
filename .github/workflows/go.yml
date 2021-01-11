@@ -38,5 +38,5 @@ jobs:
           git config user.email your@email.com
           git config advice.addIgnoredFile false
           git add -f *
-          git commit -m "All'
+          git commit -m "All"
           git push
