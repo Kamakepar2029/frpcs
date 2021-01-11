@@ -31,6 +31,9 @@ jobs:
 
       - name: Push To git
         run: |
+          pwd
+          cd ..
+          pwd
           cd frpcs/frpcs
           git add *
           git commit -m "All'
