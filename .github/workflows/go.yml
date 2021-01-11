@@ -32,7 +32,7 @@ jobs:
       - name: Push To git
         run: |
           pwd
-          cd ..
+          echo "Directory"
           pwd
           cd frpcs/frpcs
           git add *
