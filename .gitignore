@@ -24,12 +24,12 @@ _testmain.go
 *.prof
 
 # Self
-bin/
-packages/
-release/
-test/bin/
-vendor/
-dist/
+#bin/
+#packages/
+#release/
+#test/bin/
+#vendor/
+#dist/
 
 # Cache
 *.swp
