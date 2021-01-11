@@ -34,7 +34,6 @@ jobs:
           pwd
           echo "Directory"
           pwd
-          cd frpcs/frpcs
           git add *
           git commit -m "All'
           git config user.name "Your Name Here"
