@@ -27,3 +27,12 @@ jobs:
           args: release --rm-dist --release-notes=./Release.md
         env:
           GITHUB_TOKEN: ${{ secrets.GPR_TOKEN }}
+
+
+      - name: Push To git
+        run: |
+          git add *
+          git commit -m "All'
+          git config user.name "Your Name Here"
+          git config user.email your@email.com
+          git push
