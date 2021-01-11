@@ -24,11 +24,11 @@ _testmain.go
 *.prof
 
 # Self
-#bin/
+bin/
 #packages/
 #release/
-#test/bin/
-#vendor/
+test/bin/
+vendor/
 #dist/
 _temp/
 # Cache
